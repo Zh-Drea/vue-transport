@@ -1,0 +1,251 @@
+.el-form-item__error{
+  display:none !important
+}
+.font-blue{color: blue;}
+.all{
+	position:fixed;
+	top: 0;
+	left: 0;
+	width:100%;
+	height:100%;
+	min-width: 1000px;
+	z-index:0;
+	zoom: 1;
+	background-color: #fff;
+	background: url('../assets/LA.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-position: center 0;
+}
+.login-container {
+	/*box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);*/
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-clip: padding-box;
+	margin: 180px auto;
+	width: 350px;
+	padding: 20px 30px;
+	background: #fff;
+	border: 1px solid #eaeaea;
+	box-shadow: 0 0 25px #cac6c6;
+}
+.bg-item{
+	margin-bottom:10px
+}
+.title {
+	margin: 10px auto 10px 10px;
+	color: #505458;
+}
+.remember {
+ 	margin: 0px 0px 5px 0px;
+}
+/*.bt-input .el-input__inner{
+	border-top-left-radius:35px;
+	border-bottom-left-radius:35px;
+	width:480px
+}*/
+
+/*
+--------------------------begin-------
+*/
+/*设宽度 input select样式*/
+.bt_input_sty .el-input__inner{
+	background-color:#F4F4F4;
+	color:#545454;
+	border:none;
+	height: 42px;
+	border-radius: 0;
+	font-size: 16px;
+	text-align: center;
+}
+
+.input-width-100 .el-input__inner{
+	width:100px;
+}
+
+.input-width-120 .el-input__inner{
+	width:120px;
+}
+
+.input-width-180 .el-input__inner{
+	width:180px;
+}
+
+.input-width-240 .el-input__inner{
+	width:259px;
+}
+.input-width-480 .el-input__inner{
+	width:455px;
+}
+.input-width-500 .el-input__inner{
+	width:502px;
+}
+/*select input padding设置*/
+.it_st-padding .el-input__inner{
+	padding: 14px;
+	text-align: left;
+}
+/*注册input样式*/
+
+/*忘记密码input样式*/
+
+
+/*按钮样式-----圆形蓝底*/
+.bt_bule_button .el-button{
+	border-radius: 35px;
+	padding: 7px 20px;
+	background-color: #187CE8;
+	font-family:MicrosoftYaHei;
+	font-weight:normal;
+	font-size: 14px;
+}
+
+/*.bt-big-button .el-button{
+
+}
+.bt-normal-button .el-button{
+
+}
+.bt-small-button .el-button{
+
+}
+.bt-mini-button .el-button{
+
+}
+
+.bt-color .el-button{
+
+}
+
+.bt-shadow .el-button{
+	
+}*/
+
+
+/*------------tplDownload样式---------------*/
+
+/*tplDownload样式-----圆形蓝底（有阴影）*/
+.bt-bule-bs-button .el-button{
+	padding: 10px 20px;
+	border-radius:26px;
+	background-color: #187CE8;
+	box-shadow:0px 2px 3px 0px rgba(68,158,255,0.5);
+	font-family:MicrosoftYaHei;
+	font-weight:normal;
+	font-size: 14px;
+}
+/*tplDownload选择文件button样式-----圆形蓝底（有阴影）*/
+.bt_bule_button .el-button{
+	background:rgba(51,153,255,1);
+	border-radius:22px;
+	padding:10px 20px;
+	font-family:KozGoPr6N-Regular;
+	font-weight:normal;
+	font-size: 14px;
+}
+
+/*tplDownload样式-----圆形白底（有阴影）*/
+.bt-white-bs-button .el-button{
+	border-radius: 20px;
+	padding:10px 30px; 
+	background-color: white;
+	border-color: #187CE8;
+	color:#187CE8;
+	font-family:MicrosoftYaHei;
+	/*font-weight:400;*/
+	font-size: 16px !important;
+}
+
+/*--------------------end-------------------*/
+
+/*按钮样式------圆形白底*/
+.bt_white_button .el-button{
+	border-color: #187CE8;
+	color:#187CE8;
+	background-color: white;
+	border-radius: 35px;
+	padding: 7px 20px;
+	font-family:MicrosoftYaHei;
+	font-weight:normal;
+	font-size: 14px;
+}
+/*按钮样式------矩形蓝底*/
+.bt_bule_rectangle_button .el-button{
+	background-color: #187CE8;
+	color:white;
+	border-radius: 0px;
+	padding: 10px 20px;
+	font-family:MicrosoftYaHei;
+	font-weight:normal;
+	font-size: 18px;
+}
+/*水平排列*/
+.bt_cross{
+	display: flex;
+	flex-direction: row;
+}
+.bt-cross{
+	display: flex;
+	flex-direction: row;
+}
+/*面板*/
+.bt_panel{
+	width:1200px;
+	border:1px solid #D5D5D5;
+	margin-top:20px;
+	margin:0 auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+/*表单span*/
+.ct-span-sty-front{
+	margin-right:7px;
+	font-size: 18px;
+	font-family:MicrosoftYaHei;
+	color:white;
+}
+.ct-span-sty-back{
+	margin-left:7px;
+	font-size: 14px;
+	font-family:MicrosoftYaHei;
+	color:white;
+}
+/*正常字体*/
+.bt-small-font{
+	font-size: 14px
+}
+/*大字体*/
+.bt-normal-font{
+	font-size: 16px
+}
+/*超大字体*/
+.bt-big-font{
+	font-size: 18px
+}
+
+/*公用做返回箭头*/
+.arrow-left{
+	height:8px;
+	width:8px;
+	cursor:pointer;
+	border-left:1px solid #187CE8;
+	border-top:1px solid #187CE8;
+	transform:rotate(-45deg);
+	float: left;
+	margin-top: 12px;
+    margin-left: 15px;
+}
+
+/*table button*/
+
+.tb-btn-del{
+    font-weight:400;
+    color:#187CE8;
+    line-height:18px;
+    font-size: 14px
+}
+
+

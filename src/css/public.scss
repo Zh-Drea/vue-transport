@@ -1,0 +1,279 @@
+
+/**
+ * @name public.css
+ * @author 王刚
+ * @date 2019.4.22
+ * @desc 个人中心公用样式
+**/
+
+a{
+    text-decoration: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float:right;
+}
+.mt20{
+    margin-top:20px;
+}
+
+//清除浮动
+.clearfix:after{visibility:hidden;display:block;font-size:0;content: " ";clear:both;height:0;}
+.clearfix{*zoom:1;}
+
+
+
+
+/*淡入淡出*/
+.fade-enter-active {
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
+
+/*表单*/
+.xyj-edit-form,.xyj-edit-form-inline{
+    padding: 15px;
+    background: rgba(255,255,255,1);
+    border: 1px solid rgba(213, 213, 213, 1);
+    margin-bottom: 20px;
+}
+.xyj-edit-form .el-input__inner,
+.xyj-edit-form-inline .el-input__inner,
+.xyj-edit-form .el-textarea__inner,
+.xyj-edit-form-inline .el-textarea__inner,
+.xyj-edit-form .el-input-group__append,
+.xyj-edit-form-inline .el-input-group__append{
+    background:rgba(244,244,244,1);
+    border:none;
+    border-radius:0px!important;
+
+}
+.xyj-edit-form .el-form-item,
+.xyj-edit-form .el-date-editor--daterange.el-input__inner,
+.xyj-edit-form .width-paved.el-select,
+.xyj-edit-form .el-cascader{
+    width:100%!important;
+}
+
+.xyj-edit-form .el-form-item__content{
+    width: calc(100% - 80px);
+}
+.xyj-edit-form.label-100   .el-form-item__content{
+    width: calc(100% - 100px);
+}
+.xyj-edit-form.label-120  .el-form-item__content{
+    width: calc(100% - 120px);
+}
+.xyj-edit-form.label-480  .el-form-item__content{
+    width: calc(100% - 480px);
+}
+
+.xyj-edit-form .el-form-item__content{
+    //width: calc(100% + 80px);
+}
+
+
+//圆形按钮背景白色,字体蓝色 
+.xyj-edit-form .btn-big .el-button.is-round,.xyj-edit-form-inline .btn-big .el-button.is-round{
+    padding: 8px 33px;
+}
+.xyj-edit-form .btn-middle .el-button.is-round,.xyj-edit-form-inline .btn-middle .el-button.is-round{
+    padding: 8px 14px;
+    color:rgba(24,124,232,1);
+    border-color:rgba(24,124,232,1);
+}
+.xyj-edit-form .el-textarea__inner{
+    resize: none;
+    min-height:150px!important;
+}
+.xyj-edit-form .el-form-item__label{
+    font-weight:bold;
+}
+
+.el-input.is-disabled .el-input__inner{
+    /*border: none;
+    background: none;*/
+    color:#333;
+}
+.xyj-form-section{
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    font-size: 19px;
+    margin-bottom: 13px;
+    color: #333;
+    font-weight:bold;
+    padding-bottom:10px;
+}
+.el_icon{
+    margin-right: 10px;
+    font-size: 18px;
+}
+//图片上传
+.xyj-edit-form .avatar-uploader{
+    width: 230px;
+    float: left
+}
+.xyj-edit-form .avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+ .xyj-edit-form .avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+  }
+ .xyj-edit-form .avatar-uploader-icon {
+    display: block;
+    font-size: 20px;
+    color: #8c939d;
+    width: 178px;
+    height: 178px;
+    line-height: 178px;
+    text-align: center;
+  }
+.xyj-edit-form .avatar {
+    width: 178px;
+    height: 178px;
+    display: block;
+  }
+
+
+
+
+
+//表格
+
+.no-border-tabs .el-tabs__nav-wrap::after,.el-tabs__nav-wrap::after{
+    background-color:#fff!important;
+}
+.pos-ab-right{
+    position:absolute;
+    right: 20px;
+    top: 18px;
+    z-index: 1000;
+}
+.no-border-table .horizontal-border,.no-border-table .vertical-border,.no-border-table>.v-table-views{
+    border:none!important;
+}
+.v-table-body table tbody tr:nth-child(odd){
+    background-color:#F5F5F5 !important;
+}
+.v-table-body table tbody tr:nth-child(even){
+    background-color:#fff !important;
+}
+.v-table-header tbody span{
+    font-weight:bold;
+}
+table span{
+    font-size: 14px!important;
+}
+.v-table-leftview, .v-table-rightview{
+    position: relative!important;
+}
+
+
+//按钮
+.btn {
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #dcdfe6;
+    color: #606266;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    transition: .1s;
+    font-weight: 500;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.btn-mini {
+    padding: 4px 7px;
+    font-size: 12px;
+    border-radius: 3px;
+    background:rgba(24,124,232,1);
+    border:1px solid rgba(24,124,232,1);
+    border-radius:1px;
+    color:#fff;
+
+}
+.btn-small {
+    padding: 9px 15px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.btn-medium {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.is-round{
+    border-radius: 20px;
+}
+.btn-medium.is-round {
+    padding: 10px 24px;
+}
+.btn-small.is-round,.el-button--small, .el-button--small.is-round{
+    padding: 8px 22px;
+}
+.btn-mini.is-round {
+    padding: 7px 15px;
+}
+.btn-delete{
+    font-weight:400;
+    color:rgba(24,124,232,1);
+    line-height:18px;
+    margin-left: 15px;
+}
+.btn.focus, .btn:focus, .btn:hover{
+    color:#fff;
+}
+
+
+//other
+.v-page-li:hover{
+    border-color: rgba(24,124,232,1);
+}
+.v-page-li-active{
+    border-color: rgba(24,124,232,1);
+    background:rgba(24,124,232,1);
+}
+.el-icon-form-right{
+    color:#FEB12D;
+    margin-top: -27px;
+    float: right;
+    margin-right: -20px;
+}
+.is-opened>.el-submenu__title span,.is-opened>.el-submenu__title i{
+    color:rgba(24,124,232,1);
+}
+.is-opened .el-menu-item.active{
+    border-left: 5px solid rgba(24,124,232,1);
+    background: #E5F1FE;
+}
+.el-menu-item.is-active{
+        color:rgba(84,84,84,1);    
+}
+.el-menu-item-group__title{
+    display:none;
+}
+
+.el-submenu .el-menu-item{
+    width: 100%!important;
+    min-width: 160px;
+}
+
+
